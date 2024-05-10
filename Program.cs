@@ -9,7 +9,7 @@ namespace FirmwareVersion_1._0
         static void Main(string[] args)
         {
             //This is the file path that the cmd output gets put into temporarily for testing
-            string path = @"C:\Users\sorenketelsen\Documents\output.txt";
+            string path = "Output Path;
 
             //Creates and starts the process to accces the local client 
             System.Diagnostics.Process process = new System.Diagnostics.Process();
